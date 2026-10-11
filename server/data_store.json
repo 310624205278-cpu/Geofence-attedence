@@ -1597,6 +1597,104 @@
       "status": "ABSENT",
       "withinGeofence": false,
       "createdAt": "2026-09-29T06:50:27.450Z"
+    },
+    {
+      "_id": "att_1790667034368_7h99",
+      "doctor": "doc_1790099333198",
+      "phc": "phc_1789979815269",
+      "date": "2026-09-29",
+      "shiftDutyDate": "2026-09-29",
+      "shiftId": "doc_1790099333198_2026-09-29_9:55-18:55",
+      "checkpointTime": "12:55 PM",
+      "windowLabel": "12:55 PM – 01:00 PM",
+      "markedAt": null,
+      "status": "ABSENT",
+      "withinGeofence": false,
+      "createdAt": "2026-09-29T07:30:34.368Z"
+    },
+    {
+      "_id": "att_1790669579716_rq0c",
+      "doctor": "doc_1790137031683",
+      "phc": "phc_001",
+      "date": "2026-09-29",
+      "shiftDutyDate": "2026-09-29",
+      "shiftId": "doc_1790137031683_2026-09-29_11:15-16:15",
+      "checkpointTime": "01:15 PM",
+      "windowLabel": "01:15 PM – 01:20 PM",
+      "markedAt": null,
+      "status": "ABSENT",
+      "withinGeofence": false,
+      "createdAt": "2026-09-29T08:12:59.717Z"
+    },
+    {
+      "_id": "att_1790670659960_a4d4",
+      "doctor": "doc_1790099333198",
+      "phc": "phc_1789979815269",
+      "date": "2026-09-29",
+      "shiftDutyDate": "2026-09-29",
+      "shiftId": "doc_1790099333198_2026-09-29_9:55-18:55",
+      "checkpointTime": "01:55 PM",
+      "windowLabel": "01:55 PM – 02:00 PM",
+      "markedAt": null,
+      "status": "ABSENT",
+      "withinGeofence": false,
+      "createdAt": "2026-09-29T08:30:59.960Z"
+    },
+    {
+      "_id": "att_1790671800092_wplr",
+      "doctor": "doc_1790137031683",
+      "phc": "phc_001",
+      "date": "2026-09-29",
+      "shiftDutyDate": "2026-09-29",
+      "shiftId": "doc_1790137031683_2026-09-29_11:15-16:15",
+      "checkpointTime": "02:15 PM",
+      "windowLabel": "02:15 PM – 02:20 PM",
+      "markedAt": null,
+      "status": "ABSENT",
+      "withinGeofence": false,
+      "createdAt": "2026-09-29T08:50:00.092Z"
+    },
+    {
+      "_id": "att_1790674427551_ltwh",
+      "doctor": "doc_1790099333198",
+      "phc": "phc_1789979815269",
+      "date": "2026-09-29",
+      "shiftDutyDate": "2026-09-29",
+      "shiftId": "doc_1790099333198_2026-09-29_9:55-18:55",
+      "checkpointTime": "02:55 PM",
+      "windowLabel": "02:55 PM – 03:00 PM",
+      "markedAt": null,
+      "status": "ABSENT",
+      "withinGeofence": false,
+      "createdAt": "2026-09-29T09:33:47.551Z"
+    },
+    {
+      "_id": "att_1790675447679_7noc",
+      "doctor": "doc_1789983287304",
+      "phc": "phc_1789979815269",
+      "date": "2026-09-29",
+      "shiftDutyDate": "2026-09-29",
+      "shiftId": "doc_1789983287304_2026-09-29_15:15-22:15",
+      "checkpointTime": "03:15 PM",
+      "windowLabel": "03:15 PM – 03:20 PM",
+      "markedAt": null,
+      "status": "ABSENT",
+      "withinGeofence": false,
+      "createdAt": "2026-09-29T09:50:47.679Z"
+    },
+    {
+      "_id": "att_1790675447685_krar",
+      "doctor": "doc_1790137031683",
+      "phc": "phc_001",
+      "date": "2026-09-29",
+      "shiftDutyDate": "2026-09-29",
+      "shiftId": "doc_1790137031683_2026-09-29_11:15-16:15",
+      "checkpointTime": "03:15 PM",
+      "windowLabel": "03:15 PM – 03:20 PM",
+      "markedAt": null,
+      "status": "ABSENT",
+      "withinGeofence": false,
+      "createdAt": "2026-09-29T09:50:47.685Z"
     }
   ],
   "explanations": [
@@ -1691,6 +1789,118 @@
     }
   ],
   "auditLogs": [
+    {
+      "_id": "audit_1790675447686_s4vks",
+      "userId": "doc_1790137031683",
+      "userRole": "DOCTOR",
+      "userName": "Suriya N",
+      "action": "ATTENDANCE_WINDOW_MISSED",
+      "recordType": "Attendance",
+      "recordId": "att_1790675447685_krar",
+      "details": {
+        "date": "2026-09-29",
+        "checkpointTime": "03:15 PM",
+        "windowLabel": "03:15 PM – 03:20 PM",
+        "status": "ABSENT"
+      },
+      "timestamp": "2026-09-29T09:50:47.686Z"
+    },
+    {
+      "_id": "audit_1790675447682_ewsij",
+      "userId": "doc_1789983287304",
+      "userRole": "DOCTOR",
+      "userName": "N Suriya",
+      "action": "ATTENDANCE_WINDOW_MISSED",
+      "recordType": "Attendance",
+      "recordId": "att_1790675447679_7noc",
+      "details": {
+        "date": "2026-09-29",
+        "checkpointTime": "03:15 PM",
+        "windowLabel": "03:15 PM – 03:20 PM",
+        "status": "ABSENT"
+      },
+      "timestamp": "2026-09-29T09:50:47.682Z"
+    },
+    {
+      "_id": "audit_1790674427557_wpqjq",
+      "userId": "doc_1790099333198",
+      "userRole": "DOCTOR",
+      "userName": "Suriya N",
+      "action": "ATTENDANCE_WINDOW_MISSED",
+      "recordType": "Attendance",
+      "recordId": "att_1790674427551_ltwh",
+      "details": {
+        "date": "2026-09-29",
+        "checkpointTime": "02:55 PM",
+        "windowLabel": "02:55 PM – 03:00 PM",
+        "status": "ABSENT"
+      },
+      "timestamp": "2026-09-29T09:33:47.557Z"
+    },
+    {
+      "_id": "audit_1790671800095_iqzl4",
+      "userId": "doc_1790137031683",
+      "userRole": "DOCTOR",
+      "userName": "Suriya N",
+      "action": "ATTENDANCE_WINDOW_MISSED",
+      "recordType": "Attendance",
+      "recordId": "att_1790671800092_wplr",
+      "details": {
+        "date": "2026-09-29",
+        "checkpointTime": "02:15 PM",
+        "windowLabel": "02:15 PM – 02:20 PM",
+        "status": "ABSENT"
+      },
+      "timestamp": "2026-09-29T08:50:00.095Z"
+    },
+    {
+      "_id": "audit_1790670659964_ch9xa",
+      "userId": "doc_1790099333198",
+      "userRole": "DOCTOR",
+      "userName": "Suriya N",
+      "action": "ATTENDANCE_WINDOW_MISSED",
+      "recordType": "Attendance",
+      "recordId": "att_1790670659960_a4d4",
+      "details": {
+        "date": "2026-09-29",
+        "checkpointTime": "01:55 PM",
+        "windowLabel": "01:55 PM – 02:00 PM",
+        "status": "ABSENT"
+      },
+      "timestamp": "2026-09-29T08:30:59.964Z"
+    },
+    {
+      "_id": "audit_1790669579728_hc676",
+      "userId": "doc_1790137031683",
+      "userRole": "DOCTOR",
+      "userName": "Suriya N",
+      "action": "ATTENDANCE_WINDOW_MISSED",
+      "recordType": "Attendance",
+      "recordId": "att_1790669579716_rq0c",
+      "details": {
+        "date": "2026-09-29",
+        "checkpointTime": "01:15 PM",
+        "windowLabel": "01:15 PM – 01:20 PM",
+        "status": "ABSENT"
+      },
+      "timestamp": "2026-09-29T08:12:59.728Z"
+    },
+    {
+      "_id": "audit_1790667034426_o4d1m",
+      "userId": "doc_1790099333198",
+      "userRole": "DOCTOR",
+      "userName": "Suriya N",
+      "action": "ATTENDANCE_WINDOW_MISSED",
+      "recordType": "Attendance",
+      "recordId": "att_1790667034368_7h99",
+      "details": {
+        "date": "2026-09-29",
+        "checkpointTime": "12:55 PM",
+        "windowLabel": "12:55 PM – 01:00 PM",
+        "status": "ABSENT"
+      },
+      "timestamp": "2026-09-29T07:30:34.426Z"
+    },
     {
       "_id": "audit_1790664751918_3q8xt",
       "userId": "admin_001",
@@ -3361,6 +3571,114 @@
     "globalBiometricRequired": true
   },
   "notifications": [
+    {
+      "_id": "notif_1790674853237_v0s22",
+      "recipientEmail": "310624205278@eec.srmrmp.edu.in",
+      "title": "Duty Checkpoint Reminder: 03:15 PM",
+      "message": "Dr. N Suriya, your hourly duty checkpoint at 03:15 PM opens in 5 minutes (Reminder sent at 03:10 PM).",
+      "type": "EMAIL",
+      "read": false,
+      "isRead": false,
+      "createdAt": "2026-09-29T09:40:53.237Z"
+    },
+    {
+      "_id": "notif_1790674850844_cwa3m",
+      "recipientEmail": "310624205278@eec.srmrmp.edu.in",
+      "title": "Duty Checkpoint Reminder: 03:15 PM",
+      "message": "Dr. Suriya N, your hourly duty checkpoint at 03:15 PM opens in 5 minutes (Reminder sent at 03:10 PM).",
+      "type": "EMAIL",
+      "read": false,
+      "isRead": false,
+      "createdAt": "2026-09-29T09:40:50.844Z"
+    },
+    {
+      "_id": "notif_rem_1790674847613_fpcea",
+      "user": "doc_1790137031683",
+      "recipientEmail": "310624205278@eec.srmrmp.edu.in",
+      "targetRole": "DOCTOR",
+      "title": "Duty Checkpoint Reminder: 03:15 PM ⏰",
+      "message": "Your duty checkpoint opens in 5 minutes at 03:15 PM. Please complete biometric face scan & geofence verification at City Care Hospital & Central PHC.",
+      "type": "DUTY_REMINDER",
+      "checkpointTime": "03:15 PM",
+      "reminderTime": "03:10 PM",
+      "dutyDate": "2026-09-29",
+      "status": "SENT",
+      "sentAt": "2026-09-29T09:40:47.613Z",
+      "read": false,
+      "isRead": false,
+      "createdAt": "2026-09-29T09:40:47.613Z"
+    },
+    {
+      "_id": "notif_rem_1790674847608_2mbjj",
+      "user": "doc_1789983287304",
+      "recipientEmail": "310624205278@eec.srmrmp.edu.in",
+      "targetRole": "DOCTOR",
+      "title": "Duty Checkpoint Reminder: 03:15 PM ⏰",
+      "message": "Your duty checkpoint opens in 5 minutes at 03:15 PM. Please complete biometric face scan & geofence verification at primary phc.",
+      "type": "DUTY_REMINDER",
+      "checkpointTime": "03:15 PM",
+      "reminderTime": "03:10 PM",
+      "dutyDate": "2026-09-29",
+      "status": "SENT",
+      "sentAt": "2026-09-29T09:40:47.608Z",
+      "read": false,
+      "isRead": false,
+      "createdAt": "2026-09-29T09:40:47.608Z"
+    },
+    {
+      "_id": "notif_1790671205399_8tmb4",
+      "recipientEmail": "310624205278@eec.srmrmp.edu.in",
+      "title": "Duty Checkpoint Reminder: 02:15 PM",
+      "message": "Dr. Suriya N, your hourly duty checkpoint at 02:15 PM opens in 5 minutes (Reminder sent at 02:10 PM).",
+      "type": "EMAIL",
+      "read": false,
+      "isRead": false,
+      "createdAt": "2026-09-29T08:40:05.399Z"
+    },
+    {
+      "_id": "notif_rem_1790671200059_tjx04",
+      "user": "doc_1790137031683",
+      "recipientEmail": "310624205278@eec.srmrmp.edu.in",
+      "targetRole": "DOCTOR",
+      "title": "Duty Checkpoint Reminder: 02:15 PM ⏰",
+      "message": "Your duty checkpoint opens in 5 minutes at 02:15 PM. Please complete biometric face scan & geofence verification at City Care Hospital & Central PHC.",
+      "type": "DUTY_REMINDER",
+      "checkpointTime": "02:15 PM",
+      "reminderTime": "02:10 PM",
+      "dutyDate": "2026-09-29",
+      "status": "SENT",
+      "sentAt": "2026-09-29T08:40:00.059Z",
+      "read": false,
+      "isRead": false,
+      "createdAt": "2026-09-29T08:40:00.059Z"
+    },
+    {
+      "_id": "notif_1790670071868_tcwg7",
+      "recipientEmail": "suriyan182006@gmail.com",
+      "title": "Duty Checkpoint Reminder: 01:55 PM",
+      "message": "Dr. Suriya N, your hourly duty checkpoint at 01:55 PM opens in 5 minutes (Reminder sent at 01:50 PM).",
+      "type": "EMAIL",
+      "read": false,
+      "isRead": false,
+      "createdAt": "2026-09-29T08:21:11.868Z"
+    },
+    {
+      "_id": "notif_rem_1790670059877_cgnne",
+      "user": "doc_1790099333198",
+      "recipientEmail": "suriyan182006@gmail.com",
+      "targetRole": "DOCTOR",
+      "title": "Duty Checkpoint Reminder: 01:55 PM ⏰",
+      "message": "Your duty checkpoint opens in 5 minutes at 01:55 PM. Please complete biometric face scan & geofence verification at primary phc.",
+      "type": "DUTY_REMINDER",
+      "checkpointTime": "01:55 PM",
+      "reminderTime": "01:50 PM",
+      "dutyDate": "2026-09-29",
+      "status": "SENT",
+      "sentAt": "2026-09-29T08:20:59.877Z",
+      "read": false,
+      "isRead": false,
+      "createdAt": "2026-09-29T08:20:59.877Z"
+    },
     {
       "_id": "notif_1790664751911",
       "user": "doc_demo_001",
